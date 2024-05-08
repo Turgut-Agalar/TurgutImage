@@ -1,7 +1,5 @@
-import inspect
+from nicegui import ui
 
-def Bebekfurkan(f):
-  getattr(__builtins__, f)(inspect.stack()[0][3])
+ui.label("Turgut")
 
-
-Bebekfurkan("print")
+ui.run()
